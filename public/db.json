@@ -1,0 +1,42 @@
+[
+  {
+    "_id": "6626d33e7a18894810870531",
+    "Customername": "neha",
+    "customerid": 87,
+    "bookname": "A game of thrones",
+    "bookid": 100,
+    "borroweddate": "2024-12-03T05:00:00.000Z"
+  },
+  {
+    "_id": "6626d3dd7a18894810870532",
+    "Customername": "jahnavi",
+    "customerid": 88,
+    "bookname": "wings of fire",
+    "bookid": 203,
+    "borroweddate": "2024-24-04"
+  },
+  {
+    "_id": "6626d4d97a18894810870534",
+    "Customername": "akhila",
+    "customerid": 98,
+    "bookname": "think like a monk",
+    "bookid": 220,
+    "borroweddate": "2024-17-04"
+  },
+  {
+    "_id": "6626d55d7a18894810870535",
+    "Customername": "varshitha",
+    "customerid": 106,
+    "bookname": "the power of letting go",
+    "bookid": 300,
+    "borroweddate": "2024-29-04"
+  },
+  {
+    "_id": "6626d6907a18894810870537",
+    "Customername": "varna",
+    "customerid": 320,
+    "bookname": "a new name",
+    "bookid": 280,
+    "borroweddate": "2024-30-05"
+  }
+]

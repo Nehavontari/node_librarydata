@@ -1,0 +1,184 @@
+body {
+    background-color: rgb(252, 251, 251);
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: hsla(41, 100%, 48%, 0.903);
+    padding: 10px;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    @media (min-width: 500px){
+        padding: 20px;
+    }
+}
+
+.navbar a {
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+    padding: 10px;
+    font-size: large;
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+#container1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.profiles {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.profiles img {
+    width: 150px; 
+    height: auto;
+    border-radius: 50%;
+    margin: auto; 
+}
+
+.profiles h1,
+.profiles p {
+    margin: 0; 
+    text-align: center; 
+}
+
+
+.grid-container {
+    display: flex;
+    background-color: cadetblue;
+}
+.Skillspage {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+#projects {
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.project-column {
+   
+    padding: 20px;
+    text-align: center;
+}
+
+
+.project-column img {
+    width: 80px;
+    height: 70px;
+}
+
+.project-column h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.project-column p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.Achievementspage {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: lightblue; 
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+p {
+    text-align: center;
+    line-height: 1.6;
+}
+.Experiencepage {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: lightblue; 
+    display: grid;
+    place-items: center; 
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+   
+}
+
+.section {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.section h2 {
+    text-align: center;
+}
+
+.section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-media {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
+.ContactSection {
+    background-color: palevioletred;
+    display: flex;
+    justify-content: center;
+}
+
+.ContactSection img {
+    
+    width: 40px;
+    height: auto;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.ContactSection img:hover {
+    transform: scale(1.2);
+}
+main{background-color: cornflowerblue;}
