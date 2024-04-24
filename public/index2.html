@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+    background-color: rgb(252, 251, 251);
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: hsla(41, 100%, 48%, 0.903);
+    padding: 10px;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    @media (min-width: 500px){
+        padding: 20px;
+    }
+}
+
+.navbar a {
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+    padding: 10px;
+    font-size: large;
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+#container1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.profiles {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.profiles img {
+    width: 150px; 
+    height: auto;
+    border-radius: 50%;
+    margin: auto; 
+}
+
+.profiles h1,
+.profiles p {
+    margin: 0; 
+    text-align: center; 
+}
+
+
+.grid-container {
+    display: flex;
+    background-color: cadetblue;
+}
+.Skillspage {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+#projects {
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.project-column {
+   
+    padding: 20px;
+    text-align: center;
+}
+
+
+.project-column img {
+    width: 80px;
+    height: 70px;
+}
+
+.project-column h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.project-column p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.Achievementspage {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: lightblue; 
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+p {
+    text-align: center;
+    line-height: 1.6;
+}
+.Experiencepage {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: lightblue; 
+    display: grid;
+    place-items: center; 
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+   
+}
+
+.section {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.section h2 {
+    text-align: center;
+}
+
+.section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-media {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
+.ContactSection {
+    background-color: palevioletred;
+    display: flex;
+    justify-content: center;
+}
+
+.ContactSection img {
+    
+    width: 40px;
+    height: auto;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.ContactSection img:hover {
+    transform: scale(1.2);
+}
+main{background-color: cornflowerblue;}
+</style>
+<body>
+    <header>
+    <nav>
+         <a class="navHome" href="index2.html">Menu</a>
+        <a href="#container1">Achievements</a>
+        <a href="#container1">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#container">Skills</a>
+        <a href="#container"><img src="https://cdn.iconscout.com/icon/free/png-256/free-woman-female-person-avatar-user-31835.png" alt="Profile Photo" width="40px" height="50px"></a>
+    </nav>
+    </header>
+    <hr>
+    <main>
+    <section id="container">
+        <article class="profiles">
+             <img src="data:image/jpeg;base64,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" alt="Profile Photo" width="80px" height="80px">
+            <h1>Neha Vontari</h1>
+        <p>Full Stack Developer</p>
+        </article>
+         <article class="Skills">
+             <h2>Skills</h2>
+             <ul>
+              <li>C/C++</li>
+              <li>Java</li>
+              <li>Python</li>
+              <li>HTML</li>
+                </ul>
+            </article>
+        </section>
+        <hr>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-column">
+                <img src="https://cdn-icons-png.freepik.com/256/5956/5956592.png?semt=ais_hybrid" alt="Project Image" width="80px" height="70px">
+                <h3>Project 1</h3>
+                <p><b>Title:</b> E-Organic Farming Website</p>
+            </div>
+            <div class="project-column">
+                <img src="https://cdn-icons-png.freepik.com/256/5956/5956592.png?semt=ais_hybrid" alt="Project Image" width="80px" height="70px">
+                <h3>Project 2</h3>
+                <p><b>Title:</b> Sports Management Website</p>
+            </div>
+            <div class="project-column">
+                <img src="https://cdn-icons-png.freepik.com/256/5956/5956592.png?semt=ais_hybrid" alt="Project Image" width="80px" height="70px">
+                <h3>Project 3</h3>
+                <p><b>Title:</b> Hotel Management Website </p>
+            </div>
+            <div class="project-column">
+                <img src="https://cdn-icons-png.freepik.com/256/5956/5956592.png?semt=ais_hybrid" alt="Project Image" width="80px" height="70px">
+                <h3>Project 4</h3>
+                <p><b>Title:</b> Food Management Website </p>
+            </div>
+        </section>
+        <hr>
+        <section id="container1">
+            <article class="section">
+            <h2>Experience</h2>
+            <p id="Sectiontitle">Worked as Customer Experience Executive</p>
+                <ul>
+             <li>Worked on Campaigns</li>
+             <li>Bulk SMS</li>
+            <li>Excel Reports</li>
+                <li>Group Talk Calls</li>
+                <li>Tickets</li>
+                </ul>
+            </article>
+            <article class="section">
+            <h2>Achievements</h2>
+            <ul>
+             <li>Received award for best team leader</li>
+            <li>Received certificate for coding</li>
+            <li>Received certificate for completing a Python course</li>
+                </ul>
+            </article>
+        </section>
+        <hr>
+        <section class="social-media">
+            <h2>Social Media</h2>
+            <div class="ContactSection">
+                <a href="https://www.google.com/"><img src="https://cdn-icons-png.flaticon.com/512/270/270014.png" alt="Google"></a>
+                <a href="https://www.linkedin.com/feed//"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png" alt="LinkedIn"></a>
+                <a href="https://github.com/"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github"></a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
